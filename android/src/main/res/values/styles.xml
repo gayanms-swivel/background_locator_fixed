@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Override lStar attribute to fix resource linking issue -->
+    <attr name="lStar" format="float" />
+    
+    <!-- Base theme for the plugin -->
+    <style name="BackgroundLocatorTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources> 
